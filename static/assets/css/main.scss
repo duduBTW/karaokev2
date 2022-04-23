@@ -1,0 +1,38 @@
+
+body {
+  font: 1.6rem 'Helvetica Now Display', sans-serif;
+  margin: 0;
+  color: var(--color-900);
+  overflow-x: hidden;
+  background-color: var(--color-000);
+}
+
+:root {
+  --color-000:#1F1F1F;
+  --color-900: rgba(255, 255, 255, 0.82);
+  --main: #681A1A;
+}
+
+body {
+  min-height: -webkit-fill-available;
+}
+html {
+  height: -webkit-fill-available;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+a,
+a:hover,
+a:active,
+:visited {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
